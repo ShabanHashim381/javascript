@@ -1,14 +1,4 @@
-# Projects related to DOM
 
-## project link
-[Click here](http://stackblitz.com/edit/dom-project-chaiaurcode?file=index.html)
-
-# Solution 
-
-## project1
-
-```javascript
-console.log("Shaban")
 const buttons = document.querySelectorAll('.button');
 const body = document.querySelector('body');
 
@@ -31,5 +21,3 @@ buttons.forEach(function (button){
        }
     })
 })
-
-```
