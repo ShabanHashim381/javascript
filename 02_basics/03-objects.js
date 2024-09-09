@@ -25,14 +25,14 @@ const JsUser = {
 JsUser.email = "Shaban@chatgpt.com"
 // Object.freeze(JsUser)
 JsUser.email = "Shaban@microsoft.com"
-// console.log(JsUser);
+console.log(JsUser.email);
 
 JsUser.greeting = function(){
     console.log("Hello JS user");
 }
 JsUser.greetingTwo = function(){
-    console.log(`Hello JS user, ${this.name}`);
+    // console.log(`Hello JS user, ${this.name}`);
 }
 
-console.log(JsUser.greeting());
-console.log(JsUser.greetingTwo());
+console.log(JsUser.greeting);
+// console.log(JsUser.greetingTwo());
