@@ -20,7 +20,7 @@ html {
     padding: 7px;
   }
   
-  button {
+  .button {
     background-color: #141414;
     color: #fff;
     width: 250px;
